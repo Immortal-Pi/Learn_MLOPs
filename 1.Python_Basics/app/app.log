@@ -1,0 +1,18 @@
+2024-12-17 12:58:05 - ArthemeticApp - DEBUG - Adding 10+15=25
+2024-12-17 12:58:05 - ArthemeticApp - DEBUG - subtract 15-10=5
+2024-12-17 12:58:05 - ArthemeticApp - DEBUG - multiply 10+20=200
+2024-12-17 12:58:05 - ArthemeticApp - DEBUG - divide 20+10=2.0
+2024-12-17 12:59:26 - ArthemeticApp - DEBUG - Adding 10+15=25
+2024-12-17 12:59:26 - ArthemeticApp - DEBUG - subtract 15-10=5
+2024-12-17 12:59:26 - ArthemeticApp - DEBUG - multiply 10*20=200
+2024-12-17 12:59:26 - ArthemeticApp - DEBUG - divide 20/10=2.0
+2024-12-17 12:59:36 - ArthemeticApp - DEBUG - Adding 10+15=25
+2024-12-17 12:59:36 - ArthemeticApp - DEBUG - subtract 15-10=5
+2024-12-17 12:59:36 - ArthemeticApp - DEBUG - multiply 10*20=200
+2024-12-17 12:59:36 - ArthemeticApp - DEBUG - divide 20/10=2.0
+2024-12-17 12:59:36 - ArthemeticApp - ERROR - Division by zero error
+2024-12-17 12:59:37 - ArthemeticApp - DEBUG - Adding 10+15=25
+2024-12-17 12:59:37 - ArthemeticApp - DEBUG - subtract 15-10=5
+2024-12-17 12:59:37 - ArthemeticApp - DEBUG - multiply 10*20=200
+2024-12-17 12:59:37 - ArthemeticApp - DEBUG - divide 20/10=2.0
+2024-12-17 12:59:37 - ArthemeticApp - ERROR - Division by zero error
