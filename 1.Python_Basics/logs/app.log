@@ -1,0 +1,6 @@
+2024-12-17 12:26:37 - root - DEBUG - The addition function is called
+2024-12-17 12:26:37 - root - DEBUG - The addition operation is taking place
+2024-12-17 12:55:22 - ArthemeticApp - DEBUG - Adding 10+15=25
+2024-12-17 12:55:22 - ArthemeticApp - DEBUG - subtract 15-10=5
+2024-12-17 12:55:22 - ArthemeticApp - DEBUG - multiply 10+20=200
+2024-12-17 12:55:22 - ArthemeticApp - DEBUG - divide 20+10=2.0
