@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/795892081536015483/c1d50a77c57f4f899e00658e4c677588/artifacts
+deleted_time: 1734890904787
 end_time: 1734835732385
 entry_point_name: ''
 experiment_id: '795892081536015483'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c1d50a77c57f4f899e00658e4c677588
 run_name: grandiose-sponge-579
 run_uuid: c1d50a77c57f4f899e00658e4c677588
