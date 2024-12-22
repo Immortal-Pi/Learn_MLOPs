@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/795892081536015483/9e886e3bfedb4efba2cac61dc30ce585/artifacts
+end_time: 1734835712221
+entry_point_name: ''
+experiment_id: '795892081536015483'
+lifecycle_stage: active
+run_id: 9e886e3bfedb4efba2cac61dc30ce585
+run_name: unequaled-sheep-595
+run_uuid: 9e886e3bfedb4efba2cac61dc30ce585
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734835712161
+status: 4
+tags: []
+user_id: Immortal_Pi

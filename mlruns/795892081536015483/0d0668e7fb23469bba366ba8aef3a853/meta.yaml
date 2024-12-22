@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/795892081536015483/0d0668e7fb23469bba366ba8aef3a853/artifacts
+end_time: 1734835779131
+entry_point_name: ''
+experiment_id: '795892081536015483'
+lifecycle_stage: active
+run_id: 0d0668e7fb23469bba366ba8aef3a853
+run_name: kindly-bat-688
+run_uuid: 0d0668e7fb23469bba366ba8aef3a853
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734835772887
+status: 3
+tags: []
+user_id: Immortal_Pi

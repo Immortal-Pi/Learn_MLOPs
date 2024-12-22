@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/583116061002240379/ea33271714f441d69e6d8b66856292da/artifacts
+end_time: 1734829478530
+entry_point_name: ''
+experiment_id: '583116061002240379'
+lifecycle_stage: active
+run_id: ea33271714f441d69e6d8b66856292da
+run_name: amusing-whale-710
+run_uuid: ea33271714f441d69e6d8b66856292da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734829478465
+status: 3
+tags: []
+user_id: Immortal_Pi

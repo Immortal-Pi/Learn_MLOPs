@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/795892081536015483/0ce30e7da0704d9ea36a95996a1bd0d8/artifacts
+end_time: 1734835764872
+entry_point_name: ''
+experiment_id: '795892081536015483'
+lifecycle_stage: active
+run_id: 0ce30e7da0704d9ea36a95996a1bd0d8
+run_name: nimble-kite-318
+run_uuid: 0ce30e7da0704d9ea36a95996a1bd0d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734835764788
+status: 4
+tags: []
+user_id: Immortal_Pi
