@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/583116061002240379/cc4ee53fa5c34ff299d12007c2f9b8c3/artifacts
+end_time: 1734825911692
+entry_point_name: ''
+experiment_id: '583116061002240379'
+lifecycle_stage: active
+run_id: cc4ee53fa5c34ff299d12007c2f9b8c3
+run_name: amazing-cod-647
+run_uuid: cc4ee53fa5c34ff299d12007c2f9b8c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734825911601
+status: 3
+tags: []
+user_id: Immortal_Pi

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/583116061002240379/539187953fe5439da48412ccc41f4ca8/artifacts
+end_time: 1734825708543
+entry_point_name: ''
+experiment_id: '583116061002240379'
+lifecycle_stage: active
+run_id: 539187953fe5439da48412ccc41f4ca8
+run_name: rogue-goose-404
+run_uuid: 539187953fe5439da48412ccc41f4ca8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734825708493
+status: 3
+tags: []
+user_id: Immortal_Pi
