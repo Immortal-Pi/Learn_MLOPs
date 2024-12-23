@@ -10,3 +10,6 @@ seaborn
 flask
 mlflow
 scikit-learn
+keras 
+tensorflow
+hyperopt
