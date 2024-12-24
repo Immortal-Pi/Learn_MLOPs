@@ -1,5 +1,5 @@
 resources
-mlruns
+**/mlruns/
 MLflow/mlartifacts
-mlartifacts
+**/mlartifacts/
 MLflow/MLproject/Deep_Learing/mlruns
