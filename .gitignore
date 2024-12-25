@@ -3,3 +3,5 @@ resources
 MLflow/mlartifacts
 **/mlartifacts/
 MLflow/MLproject/Deep_Learing/mlruns
+MLflow/step-by-step/custom_model*
+MLflow/step-by-step/model_*

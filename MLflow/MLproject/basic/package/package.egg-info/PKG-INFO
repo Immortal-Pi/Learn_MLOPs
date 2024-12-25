@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: package
+Version: 0.1
+Summary: A useful package
+Author: T Amruth Pai
+Author-email: amruthpaiuni@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: mlflow
