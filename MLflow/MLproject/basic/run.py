@@ -1,9 +1,9 @@
-from package.package.feature.data_processing import get_feature_dataframe
-from package.package.ml_training.retrieval import get_train_test_score_set
-from package.package.ml_training.preprocessing_pipeline import get_pipeline
-from package.package.utils.utils import set_or_create_experiment,get_classification_metrics,get_performance_plots
+from package.feature.data_processing import get_feature_dataframe
+from package.ml_training.retrieval import get_train_test_score_set
+from package.ml_training.preprocessing_pipeline import get_pipeline
+from package.utils.utils import set_or_create_experiment,get_classification_metrics,get_performance_plots
 from package.package.ml_training.train import train_model
-from package.package.utils.utils import register_model_with_client
+from package.utils.utils import register_model_with_client
 import mlflow
 
 
@@ -24,7 +24,7 @@ if __name__=='__main__':
 
     experiment_id=set_or_create_experiment(experiment_name=experiment_name)
 
-    run_id,model=train_model(pipeline=pipeline,run_name=run_name,x=xtrain[features],y=ytrain)
+    run_id,model=train_model(pipeline=pipeline,run_name=run_name,artifact_path=artifact_path,model_name=model_name,x=xtrain[features],y=ytrain)
 
     ypred=model.predict(xtest)
 
@@ -33,8 +33,8 @@ if __name__=='__main__':
 
     #register the model
     #mlflow.register_model(model_uri=f'runs:/{run_id}/{artifact_path}',name=model_name)
-    # manual register
-    register_model_with_client(model_name=model_name,run_id=run_id,artifact_path=artifact_path)
+    # manual register # if model already registered it will throw error
+    #register_model_with_client(model_name=model_name,run_id=run_id,artifact_path=artifact_path)
 
     # log performance metrics 
     with mlflow.start_run(run_id=run_id):

@@ -4,7 +4,7 @@ from mlflow.models.signature import infer_signature
 import mlflow 
 from typing import Tuple
 
-def train_model(pipeline:Pipeline,run_name:str,x:pd.DataFrame,y:pd.DataFrame)-> Tuple[str,Pipeline]:
+def train_model(pipeline:Pipeline,run_name:str,model_name:str,artifact_path:str,x:pd.DataFrame,y:pd.DataFrame)-> Tuple[str,Pipeline]:
     """ 
     Training a model and log it to MLflow
 
@@ -17,5 +17,5 @@ def train_model(pipeline:Pipeline,run_name:str,x:pd.DataFrame,y:pd.DataFrame)-> 
     signature=infer_signature(x,y)
     with mlflow.start_run(run_name=run_name) as run:
         pipeline=pipeline.fit(x,y)
-        mlflow.sklearn.log_model(pipeline,'model',signature=signature)
+        mlflow.sklearn.log_model(sk_model=pipeline,artifact_path=artifact_path,signature=signature,registered_model_name=model_name)
         return run.info.run_id,pipeline

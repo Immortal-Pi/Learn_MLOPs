@@ -6,6 +6,6 @@ setup(
     description='A useful package',
     author='T Amruth Pai',
     author_email='amruthpaiuni@gmail.com',
-    packages=['package.feature','package.ml_training'], # storing code 
+    packages=['package.feature','package.ml_training','package.utils'], # storing code 
     install_requires=['numpy','pandas','scikit-learn','matplotlib','mlflow']
 )
