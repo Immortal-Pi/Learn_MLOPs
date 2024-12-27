@@ -1,0 +1,21 @@
+artifact_path: model
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.0
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.0
+    streamable: false
+mlflow_version: 2.19.0
+model_size_bytes: 1893
+model_uuid: 3e49777a568b4e59843a4d0000d8ced1
+run_id: 7529c2d825a24e2ba5de0db1a9b21d12
+signature:
+  inputs: '[{"type": "integer", "name": "input", "required": true}]'
+  outputs: '[{"type": "integer", "name": "output", "required": true}]'
+  params: '[{"name": "model_name", "type": "string", "default": null, "shape": null}]'
+utc_time_created: '2024-12-25 13:19:40.777250'
