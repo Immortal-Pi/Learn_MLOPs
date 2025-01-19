@@ -14,3 +14,6 @@ keras
 tensorflow
 hyperopt
 dvc 
+langchain
+langchain_openai
+langchain_core
