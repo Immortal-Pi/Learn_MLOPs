@@ -7,3 +7,4 @@ MLflow/step-by-step/custom_model*
 MLflow/step-by-step/model_*
 **hyperopt_mlflow_artifact
 **plain_xgboost
+.env
