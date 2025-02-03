@@ -1,14 +1,5 @@
-2024-12-17 12:25:27 - root - DEBUG - This is a debug message
-2024-12-17 12:25:27 - root - INFO - this is a informa message
-2024-12-17 12:25:27 - root - WARNING - this is a warning message
-2024-12-17 12:25:27 - root - ERROR - this is an error message
-2024-12-17 12:25:27 - root - CRITICAL - this is a critical message
-2024-12-17 12:48:10 - module1 - DEBUG - This is debug for module 1
-2024-12-17 12:48:10 - module2 - WARNING - This is a warning for module 2
-2024-12-17 12:48:10 - module2 - ERROR - This is a error for module 2
-2024-12-17 12:48:42 - module1 - DEBUG - This is debug for module 1
-2024-12-17 12:48:42 - module2 - WARNING - This is a warning for module 2
-2024-12-17 12:48:42 - module2 - ERROR - This is a error for module 2
-2024-12-17 12:48:45 - module1 - DEBUG - This is debug for module 1
-2024-12-17 12:48:45 - module2 - WARNING - This is a warning for module 2
-2024-12-17 12:48:45 - module2 - ERROR - This is a error for module 2
+2025-02-02 19:12:42-root-DEBUG-hello debug
+2025-02-02 19:12:42-root-INFO-hello
+2025-02-02 19:12:42-root-WARNING-hello 
+2025-02-02 19:12:42-root-ERROR-hello
+2025-02-02 19:12:42-root-CRITICAL-hello
