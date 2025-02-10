@@ -19,3 +19,4 @@ langchain_openai
 langchain_core
 bs4 
 streamlit 
+Flask
