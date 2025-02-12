@@ -20,3 +20,4 @@ langchain_core
 bs4 
 streamlit 
 Flask
+redis 
